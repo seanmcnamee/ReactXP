@@ -3,7 +3,7 @@ import { StyleSheet, View, TouchableHighlight, Text } from 'react-native';
 
 export default class Reality extends Component {
     render(props) {
-        console.log("At Reality");
+        console.log("At Reality: " + this.props.nextPost);
         return (
             <View style={styles.fullscreen}>
                 <Post />

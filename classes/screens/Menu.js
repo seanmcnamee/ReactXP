@@ -5,7 +5,7 @@ import { StyleSheet, View, Text, TouchableHighlight, Alert } from 'react-native'
 
 class Menu extends Component {
     render() {
-        console.log("At profile");
+        //console.log("At profile");
         return (
             <View style={styles.fullscreen}>
                 

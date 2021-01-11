@@ -3,7 +3,7 @@ import { StyleSheet, View, TouchableHighlight, Text } from 'react-native';
 
 export default class Abyss extends Component {
     render(props) {
-        console.log("At Abyss");
+        console.log("At Abyss: " + this.props.nextPost);
         return (
             <View style={styles.fullscreen}>
                 <Post />
